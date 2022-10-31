@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+echo -n "Sisesta oma eesnimi "
+read eesnimi
+echo -n "Sisesta oma perekonnanimi "
+read perekonnanimi
+echo "Sinu nimi on $eesnimi $perekonnanimi"
