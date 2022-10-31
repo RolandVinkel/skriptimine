@@ -1,3 +1,12 @@
 #!/bin/bash
 
+echo -n "Sisesta EAP arv "
+read EAP
+echo -n "Sisesta nädalate arv "
+read nadalad
+
+EAPH=$(($EAP * 26))
+nadal=$(($EAPH / $nadalad))
+
+echo "$nadal"
 
