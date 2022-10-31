@@ -1,1 +1,5 @@
-cal
+#!/bin/bash
+
+date +"%B %Y"
+cal | tail -n 7 
+date +"Time is %H:%M"
