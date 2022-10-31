@@ -8,8 +8,8 @@ echo -n "Mitu kohta on bussis"
 read Bussis_kohti
 
 
-bussid =$(($reisijad / $Bussis_kohti))
-echo "$bussid"
+bussid=$(($reisijad / $Bussis_kohti))
+echo "$bussid bussi on vaja"
 
-maha_jaanud =$(($resisijad % $Bussis_kohad))
-echo "$maha_jaanud"
+maha_jaanud=$(($reisijad % $Bussis_kohti))
+echo "$maha_jaanud inimest jääb maha"
